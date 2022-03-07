@@ -1,0 +1,64 @@
+:root {
+    --fuenteTitulo: 'Raleway', sans-serif;
+    --FuenteBody: 'Open Sans', sans-serif;
+    --introBg: #1c2431;
+    --mainBg: #181f2a;
+    --footerBg: #0b1523 ;
+    --testimonialBg: #202a3c;
+    --cyan: #65e2d9;
+    --blue: #339ecc;
+    --lightRed: #ff4242;   
+    --white: #fff;
+}
+
+html {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fuentePrincipal);
+} 
+
+.imagen-header{
+    width: 80px;
+}
+
+.imagen-seccion1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion-3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen-test{
+    display: block;
+    margin-left: 0;
+    border-radius: 50rem;
+    width: 100px;
+}
+
+.inf-testimonio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.container-iconos{
+    display: flex;
+    justify-content: center
+}
+
+.iconos-footer{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 1px var(--white);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
